@@ -14,8 +14,6 @@ public class Main {
         int m2 = scan.nextInt();
         int s2 = scan.nextInt();
         int result = (((h2 + 24) * 3600 + m2 * 60 + s2) - (h1 * 3600 + m1 * 60 + s1)) % 86400;
-        System.out.print("Разница во времени - ");
-        System.out.print(result);
-        System.out.print(" секунд.");
+        System.out.print("Разница во времени - " + result + " секунд.");
     }
 }
