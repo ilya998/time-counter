@@ -8,5 +8,5 @@ public class global {
     public static int h2 = 0;
     public static int m2 = 0;
     public static int s2 = 0;
-    public static int x = 0;
+    public static int temp = 0;
 }
